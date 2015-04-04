@@ -103,28 +103,19 @@ $(function(){
 		$('#cleanProm').hide();
 	
 	//Cambiar fondo de los botones
-	var menu1 = document.getElementById('menu1');
-	var menu2 = document.getElementById('menu2');
+	var menu1 = $('#menu1');
+	var menu2 = $('#menu2');
 	
-	menu1.onmouseover = function(){
-		$('#menu1').addClass("fondoBlanco");
-		$('#me1').addClass("letraNegra");
-	};
-	menu1.onmouseout = function(){
-		$('#menu1').removeClass("fondoBlanco");
-		$('#me1').removeClass("letraNegra");
-	};
-	
-	menu2.onmouseover = function(){
-		$('#menu2').addClass("fondoBlanco");
-		$('#me2').addClass("letraNegra");
-	};
-	menu2.onmouseout = function(){
-		$('#menu2').removeClass("fondoBlanco");
-		$('#me2').removeClass("letraNegra");
-	};
-	
-	
+	menu1.addClass('letraNegra');
+	menu1.click(function(){
+		menu1.addClass('letraNegra');
+		menu2.removeClass('letraNegra');
+	});
+	menu2.click(function(){
+		menu2.addClass('letraNegra');
+		menu1.removeClass('letraNegra');
+		
+	});
 	
 	
 	//Cambiar la pantalla del workspace

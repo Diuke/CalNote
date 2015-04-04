@@ -46,8 +46,6 @@ h2{
 
 .letraNegra{
 	color:black!important;
-}
-.fondoBlanco{
 	background: #F2F2F2;
 }
 
@@ -87,7 +85,7 @@ h2{
 	width: 50%;
 	height: 80px;
 	text-align: center;
-	color: white;
+	color: inherit;
 }
 
 .labels{

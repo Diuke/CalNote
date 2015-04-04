@@ -1,0 +1,193 @@
+*{font-family: sans-serif;}
+
+
+body {
+	background-color: black!important;
+	min-width: 730px;
+	margin: 0px!important;
+}
+
+#header{
+	background: url("../img/logo/logo.png") no-repeat center;
+	 margin-bottom: 3%;
+	 padding: 65px;
+	 margin-top: 4%;
+}
+
+h1{ 
+	color: white;
+	font-size: 70px; 
+	text-align: center; 
+	margin: 0 auto;
+	padding-top: 5%;
+	margin-bottom: 5%; 
+	font-family: monospace;  
+}
+
+
+h2{
+	padding: 15px;
+	display: inline;
+}
+
+.cantidadnotas{
+	margin:15px;
+	width:30px;
+	margin-top:30px;
+	margin-bottom: 33px;
+	display: inline;
+}
+
+.buttonsend{
+	margin:15px;
+	width:70px;
+	display: inline;	
+}
+
+.letraNegra{
+	color:black!important;
+}
+.fondoBlanco{
+	background: #F2F2F2;
+}
+
+.workspace{
+	background: transparent; 
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+	min-height: 500px;
+}
+
+.CalNote{
+	width: 100%;
+	height: auto;
+	min-height: 500px;
+	background: #F2F2F2;
+	z-index: 1;
+	position: relative;
+}
+
+.CalProm{
+	width: 100%;
+	min-height: 500px;
+	height: auto!important;
+	position:absolute;
+	background: #F2F2F2;
+	z-index: 0;
+}
+
+.menu{
+	width: 100%;
+	height: 80px;
+}
+
+.menuElement{
+	display: inline;
+	width: 50%;
+	height: 80px;
+	text-align: center;
+	color: white;
+}
+
+.labels{
+	height: 15px;
+		
+}
+
+.labelMateria{
+	margin: 0px;
+	padding: 11px 165px;
+	display: inline;
+	padding-right: 141px;
+}
+.labelPer100{
+	display: inline;
+	margin: 0px;
+	padding: 6px;
+}
+.labelNota{
+	display:inline;
+	margin: 0px;
+	padding: 11px 28px;
+}
+
+
+.materia{
+	margin: 15px;
+	margin-left: 40px;	
+	width: 300px;
+}
+.porcentaje{
+	margin: 15px;
+	width: 40px;
+}
+.nota{
+	margin: 7px;
+	width: 40px;
+}
+
+.botonCalc{
+	width: 160px;
+	margin-left: 199px;
+	margin-top: 30px;
+	height: 30px;
+	display: block;
+}
+
+
+
+.pop-up{
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.7;
+	position: fixed;
+	display: none;
+	z-index: 9;
+}
+
+.resultados{
+	position: fixed;
+	z-index:10;
+	height: 216px;
+	width: 450px;
+	background: white;
+	display: none;
+	left:50%;
+	top:200px;
+	margin-left:-240px;
+	text-align: center;
+}
+
+.labelMateria2{
+	margin: 0px;
+	padding: 11px 165px;
+	display: inline;
+	padding-right: 141px;
+}
+.labelCreditos{
+	display: inline;
+	margin: -8px;
+	padding: 4px;
+}
+.labelNota2{
+	display:inline;
+	margin: -8px;
+	padding: 11px 28px;
+}
+
+.materia1{
+	margin: 15px;
+	margin-left: 40px;	
+	width: 290px;
+}
+.credito{
+	margin: 15px;
+	width: 40px;
+}
+.notaProm{
+	margin: 7px;
+	width: 40px;
+}
+
